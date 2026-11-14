@@ -61,10 +61,11 @@ nav {
     left: 0;
     width: 100%;
     display: none;
+    flex-direction: column;
 }
 
 nav.open {
-    display: block;
+    display: flex;
 }
 
 .navigation {
@@ -82,8 +83,8 @@ nav.open {
     transition: background 0.3s ease;
 }
 
-.navigation li a:hover, .navigationli a:focus {
-    background-color: rgba (255, 255, 255, 0.2);
+.navigation li a:hover, .navigation li a:focus {
+    background-color: rgba(255, 255, 255, 0.2);
     color: var(--hover-gold);
 }
 
