@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+main {
+    background-color: #d3d3d3;
+    padding: 2rem;
+}
+
+aside {
+    background-color: white;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
